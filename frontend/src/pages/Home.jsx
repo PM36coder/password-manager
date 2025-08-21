@@ -19,7 +19,7 @@ export default function HomePage() {
         {token ? (
           <div className="flex flex-col items-center">
             <p className="text-2xl font-bold mb-4 text-white drop-shadow-lg">Welcome Back!</p>
-            <Link to="/manager">
+            <Link to="/passwords">
               <button className="bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white font-bold py-3 px-8 rounded-full shadow-lg transition-transform transform hover:scale-105 hover:shadow-xl hover:cursor-pointer">
                 Go to your Vault
               </button>

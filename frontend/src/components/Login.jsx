@@ -41,7 +41,7 @@ const Login = () => {
         // setToken function ko call karein auth context ko update karne ke liye
         setToken(res.data.token)
         setLoginSuccess(true);
-        navigate("/manager");
+        navigate("/passwords");
       } else {
         setError("Invalid response from server.");
       }

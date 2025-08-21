@@ -141,7 +141,7 @@ const SignUp = () => {
           password: "",
           confirmPassword: "",
         });
-        navigate("/manager");
+        navigate("/passwords");
       }, 1500);
 
     } catch (err) {
