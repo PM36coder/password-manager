@@ -111,7 +111,7 @@ const Manager = () => {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-900 via-zinc-900 to-black p-6 font-sans text-gray-200">
+    <div className="min-h-screen mt-16 bg-gradient-to-br from-gray-900 via-zinc-900 to-black p-6 font-sans text-gray-200">
       <div className="max-w-5xl mx-auto">
         <h1 className="text-4xl font-extrabold text-center text-white mb-8 drop-shadow-lg">
           🔑 Your Secure PassVault
