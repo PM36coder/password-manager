@@ -103,7 +103,7 @@ const Manager = () => {
   // Agar user login nahi hai, toh yeh UI render karein
   if (!token) {
     return (
-      <div className="min-h-screen bg-gradient-to-br from-gray-900 via-zinc-900 to-black p-6 font-sans text-gray-200 flex flex-col items-center justify-center">
+      <div className="min-h-screen bg-gradient-to-br mt-16 from-gray-900 via-zinc-900 to-black p-6 font-sans text-gray-200 flex flex-col items-center justify-center">
         <h1 className="text-4xl font-extrabold text-center text-white mb-8 drop-shadow-lg">You are not logged in</h1>
         <Link to="/login" className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-full">Login</Link>
       </div>
