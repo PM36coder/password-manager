@@ -17,7 +17,7 @@ app.use(express.json())
 
 app.use(cors({
     origin: [
-        "https://passmanager36.netlify.app/"
+        "https://passmanager36.netlify.app"
         
     ],
     methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'], // Add this
