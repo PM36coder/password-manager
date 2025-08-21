@@ -6,7 +6,7 @@ import { useAuth } from '../context/AuthContext';
 export default function HomePage() {
   const {token} = useAuth()
   return (
-    <div className="bg-gray-900 mt-3.5 text-white min-h-screen font-sans">
+    <div className="bg-gray-900 mt-16 text-white min-h-screen font-sans">
       {/* Hero Section */}
       <section className="container mx-auto px-4 py-20 text-center">
         <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight mb-4 text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">

@@ -21,9 +21,9 @@ export default function ContactPage() {
 
   return (<>
 
-    {/* <div class="absolute inset-0 -z-10 h-full w-full items-center px-5 py-24 [background:radial-gradient(125%_125%_at_50%_10%,#000_40%,#63e_100%)]"></div> */}
+   
 
-    <div className="bg-gray-900 text-white min-h-screen font-sans">
+    <div className="bg-gray-900 text-white mt-16 min-h-screen font-sans">
         
       <div className="container mx-auto px-4 py-16">
         <h1 className="text-4xl md:text-5xl font-bold text-center mb-8 text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">

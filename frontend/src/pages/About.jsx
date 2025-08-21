@@ -3,7 +3,7 @@ import { Sparkles, ArrowRight } from 'lucide-react'; // Adding new icons for vis
 
 export default function AboutPage() {
   return (
-    <div className="bg-gray-950 text-white min-h-screen font-sans">
+    <div className="bg-gray-950 text-white min-h-screen mt-16 font-sans">
       <div className="container mx-auto px-4 py-16">
         <h1 className="text-4xl md:text-5xl font-bold text-center mb-12 text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
           Hamari Kahaani
